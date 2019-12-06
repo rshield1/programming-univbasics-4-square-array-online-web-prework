@@ -9,6 +9,8 @@ def square_array(numbers)
         puts new_array[counter] = numbers[counter]** 2
         
         counter += 1
+        
+        return new_array
 
     end
   end
