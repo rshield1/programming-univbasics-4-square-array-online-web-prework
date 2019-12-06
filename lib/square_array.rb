@@ -1,22 +1,19 @@
 def square_array(numbers)
-  
+
     counter = 0
-      numbers = numbers
-      new_array = []
-     
-      while numbers[counter] do
 
-        new_array.push(numbers[counter] * numbers[counter])
+    new_array = []
 
+    while counter < numbers.length do
+
+        new_array[counter] = numbers[counter] * numbers[counter]
 
         return new_array
 
-
         counter += 1
 
-      end
-      
     end
+  end
 
     
     square_array([1,2,4])
